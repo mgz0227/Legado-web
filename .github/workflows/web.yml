@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 env:
-  UPSTREAM_REPOSITORY: mgz0227/legado-web
+  UPSTREAM_REPOSITORY: mgz0227/Legado-web
 
 jobs:
   build:
@@ -56,11 +56,11 @@ jobs:
           version="v$(date -u +3.%y.%m%d%H)"
           echo "APP_VER=$version" >> $GITHUB_ENV
           
-          rm -rf /home/runner/work/legado-web/legado-web/entry/src/main/resources/rawfile/web/
-          mkdir -p /home/runner/work/legado-web/legado-web/entry/src/main/resources/rawfile/web/
+          rm -rf /home/runner/work/Legado-web/Legado-web/entry/src/main/resources/rawfile/web/
+          mkdir -p /home/runner/work/Legado-web/Legado-web/entry/src/main/resources/rawfile/web/
           
-          echo "Moving built files to /home/runner/work/legado-web/legado-web/entry/src/main/resources/rawfile/web/"
-          mv dist/* /home/runner/work/legado-web/legado-web/entry/src/main/resources/rawfile/web/ || true
+          echo "Moving built files to /home/runner/work/Legado-web/Legado-web/entry/src/main/resources/rawfile/web/"
+          mv dist/* /home/runner/work/Legado-web/Legado-web/entry/src/main/resources/rawfile/web/ || true
 
       - name: push changes
         if: ${{ github.event_name != 'pull_request' && github.repository == env.UPSTREAM_REPOSITORY }}
