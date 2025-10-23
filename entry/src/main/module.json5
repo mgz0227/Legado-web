@@ -2,6 +2,7 @@
   "module": {
     "name": "entry",
     "type": "entry",
+    "deliveryWithInstall": true,                     // ✅ 新增
     "srcEntry": "./ets/entryability/EntryAbility.ets",
     "description": "$string:module_desc",
     "mainElement": "EntryAbility",
@@ -14,8 +15,9 @@
         "name": "EntryAbility",
         "srcEntry": "./ets/entryability/EntryAbility.ets",
         "exported": true,
-        "type": "page",
-        "launchType": "standard"
+        "launchType": "standard",
+        "startWindowIcon": "$media:icon",         // ✅ 新增
+        "startWindowBackground": "$color:start_window_bg" // ✅ 新增
       }
     ]
   }

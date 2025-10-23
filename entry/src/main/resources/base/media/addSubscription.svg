@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+        width="24"
+        height="24"
+        version="1.1"
+        id="svg2"
+        sodipodi:docname="xmark_circle.svg"
+        inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <defs
+            id="defs2"/>
+    <sodipodi:namedview
+            id="namedview2"
+            pagecolor="#ffffff"
+            bordercolor="#000000"
+            borderopacity="0.25"
+            inkscape:showpageshadow="2"
+            inkscape:pageopacity="0.0"
+            inkscape:pagecheckerboard="0"
+            inkscape:deskcolor="#d1d1d1"
+            inkscape:zoom="51.333333"
+            inkscape:cx="11.99026"
+            inkscape:cy="12"
+            inkscape:window-width="2520"
+            inkscape:window-height="1556"
+            inkscape:window-x="-12"
+            inkscape:window-y="-12"
+            inkscape:window-maximized="1"
+            inkscape:current-layer="svg2"/>
+    <rect
+            width="24"
+            height="24"
+            opacity="0"
+            id="rect1"/>
+    <g
+            id="g2"
+            transform="rotate(-45.060643,11.99992,11.999821)">
+        <path
+                d="m 12,2.5 q 2.57,0 4.75,1.28 2.19,1.28 3.47,3.47 1.28,2.18 1.28,4.75 0,2.57 -1.28,4.75 -1.28,2.19 -3.47,3.47 Q 14.57,21.5 12,21.5 9.43,21.5 7.25,20.22 5.06,18.94 3.78,16.75 2.5,14.57 2.5,12 2.5,9.43 3.78,7.25 5.06,5.06 7.25,3.78 9.43,2.5 12,2.5 Z m 0,-1.49 q -3,0 -5.52,1.47 -2.52,1.48 -4,4 Q 1.01,9 1.01,12 q 0,2.98 1.47,5.51 1.48,2.53 4.01,4.01 2.53,1.47 5.51,1.47 2.98,0 5.51,-1.47 2.53,-1.48 4.01,-4.01 1.47,-2.53 1.47,-5.51 0,-3 -1.47,-5.52 -1.48,-2.52 -4,-4 Q 15,1.01 12,1.01 Z"
+                fill="rgba(0,0,0,0.9019607843137255)"
+                id="path1"/>
+        <path
+                d="m 16.27,8.78 q 0.22,-0.24 0.22,-0.54 0,-0.3 -0.22,-0.51 -0.21,-0.24 -0.53,-0.24 -0.31,0 -0.52,0.24 L 12,10.94 8.78,7.73 Q 8.57,7.49 8.26,7.49 7.94,7.49 7.73,7.73 7.51,7.94 7.51,8.24 q 0,0.3 0.22,0.54 L 10.94,12 7.73,15.22 q -0.22,0.21 -0.22,0.52 0,0.32 0.22,0.53 0.19,0.22 0.54,0.22 0.35,0 0.51,-0.22 l 3.22,-3.21 3.22,3.21 q 0.19,0.22 0.54,0.22 0.34,0 0.51,-0.22 0.22,-0.21 0.22,-0.53 0,-0.31 -0.22,-0.52 L 13.06,12 Z"
+                fill="rgba(0,0,0,0.9019607843137255)"
+                id="path2"/>
+    </g>
+</svg>

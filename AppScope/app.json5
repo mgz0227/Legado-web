@@ -5,7 +5,7 @@
     "versionCode": 1,
     "versionName": "1.0.0",
     "icon": "$media:app_icon",
-    "label": "开源阅读Web",
+    "label": "$string:app_name",
     "distributedNotificationEnabled": false
   }
 }
